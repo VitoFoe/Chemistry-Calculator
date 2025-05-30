@@ -16,7 +16,11 @@ This app is made for the final project of my own coding class.
 This app is made to make it easier for students to learn chemistry formulas for various exams and quizzes.
 
 ## ⚙️How to run the app
-1. Activate the virtual environment.
+
+1. Make sure that python has already been installed.
+
+   ![Step 1](images/step2.png)
+2. Activate the virtual environment.
    1. First, type the following on the terminal to create the venv file:
       ```bash
       python -m venv <venv name>
@@ -25,10 +29,6 @@ This app is made to make it easier for students to learn chemistry formulas for 
       ```bash
       source <venv name>/scripts/activate
       ```
-
-2. Make sure that python has already been installed.
-
-   ![Step 4](images/step2.png)
 3. Install the required modules by using this code:
    ```bash
    pip install -r requirements.txt
@@ -39,13 +39,13 @@ This app is made to make it easier for students to learn chemistry formulas for 
    ```
 5. Select the formula that you wanted to use.
 
-   ![Step 4](images/step4.png)
+   ![Step 5](images/step4.png)
 6. Fill in all the required fields.
 
-   ![Step 5](images/step5.png)
+   ![Step 6](images/step5.png)
 7. Press the "Calculate" button, and the results will apprear below the button.
 
-   ![Step 5](images/step6.png)
+   ![Step 7](images/step6.png)
 
 ## ❗Program Capabilities
 - Able to change the display whenever you choose another formula
